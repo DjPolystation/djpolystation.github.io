@@ -3,19 +3,34 @@
    <head>
 	  <title> DjPolystation </title> 
     <style>
+	
+	@font-face { font-family: Untitled; src: url('Untitled1.otf'); } 
+	
 		html {
 			background-color: black;
 			color: white;
-			font-size: 3rem;
+			font-size: 3.0vw;
+			line-height: 3.0vw;
+			font-family: Untitled;
 		}
 		
-		
-      @font-face { font-family: Untitled; src: url('Untitled1.otf'); } 
+	
       h1 {
-         font-family: Untitled;
-		 font-size: 30px;
-		 line-height: 30px;
+       
+		 font-size: 3.0vw;
+		 line-height: 3.0vw;
 		 font-smooth: antialiased;
+		 text-shadow: 1px 0px 2px #ffff00, -1px -0px 2px #ffff00, 0 0 5px #ff8100, 0 0 5px #ff4000, 0 0 50px #ff8100, 0 0 60px #aa6100, 0 0 70px #882150;
+		 color: #ffff90
+      }
+	  
+	  marquee {
+         font-family: Untitled;
+		 font-size: 3.0vw;
+		 line-height: 3.0vw;
+		 font-smooth: antialiased;
+		 text-shadow: 1px 0px 2px #ffff00, -1px -0px 2px #ffff00, 0 0 5px #ff8100, 0 0 5px #ff4000, 0 0 50px #ff8100, 0 0 60px #aa6100, 0 0 70px #882150;
+		 color: #ffff40
       }
 	  
 	  .smoothed {
@@ -24,19 +39,39 @@
 			animation: glow 0.03s ease-in-out infinite alternate;
 		}
 		
-		@-webkit-keyframes glow {
-			from {
-				text-shadow: 0 0 2px #ff8100, 0 0 10px #ff8100, 0 0 10px #ff8100, 0 0 10px #ff8100, 0 0 50px #ff8100, 0 0 60px #ff8100, 0 0 70px #ff8100;
+		a:link {
+			color: #40a0ff;
+			background-color: transparent;
+			text-decoration: none;
+			text-shadow: 1px 0px 2px #0000ff, -1px -0px 2px #0000ff, 0 0 5px #0000ff, 0 0 5px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff, 0 0 40px #0000ff;
 			}
-  
-			to {
-				text-shadow: 0 0 2px #ff8100, 0 0 10px #ff8100, 0 0 10px #ff8100, 0 0 10px #ff8100, 0 0 60px #ff8100, 0 0 70px #ff8100, 0 0 80px #ff8100;
-			}
+		
+		a:visited {
+			color: #40a0ff;
+			background-color: transparent;
+			text-decoration: none;
+			text-shadow: 1px 0px 2px #0000ff, -1px -0px 2px #0000ff, 0 0 5px #0000ff, 0 0 5px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff, 0 0 40px #0000ff;
+		}
+		a:hover {
+			color: #ffffff;
+			background-color: transparent;
+			text-decoration: none;
+			text-shadow: 1px 0px 2px #ff00ff, -1px -0px 2px #ff00ff, 0 0 5px #aa00ff, 0 0 5px #4000ff, 0 0 50px #0000ff, 0 0 60px #0000ff, 0 0 70px #0000ff;
+		}
+		a:active {
+			color: yellow;
+			background-color: transparent;
+			text-decoration: underline;
+			text-shadow: 1px 0px 2px #ffff00, -1px -0px 2px #ffff00, 0 0 5px #ff8100, 0 0 5px #ff4000, 0 0 50px #ff8100, 0 0 60px #aa6100, 0 0 70px #882150;
+		}
+		
+
 }
 		
     </style>
    </head>
    <body>
+   
       <h1 class="smoothed">&nbsp&nbsp |}}| |&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp|}}} |}}} |}}| }|} |}}| 
 		<br>&nbsp&nbsp |}}| |{{{ |{{{ |||{ |{{| |}}{ {|{ |}}| 
 		<br>&nbsp&nbsp {{{{ {{{{ {{{ {{{{ {{{{ {{{{ {{{{ {{{{ {{{{ {{{{ {{{{ 
@@ -45,11 +80,17 @@
 		<br>&nbsp&nbsp _______________________________________________________
 		<br>
 		<br>&nbsp&nbsp Un oasi di pace contro il logorio della vita moderna. 
-	  	<br>
-		<br>  
-		<br>&nbsp&nbsp Ancora Work in Progress
-		<br>&nbsp&nbsp (anche se i progressi iniziano a notarsi)
+		<br>
+		<br>
+		<br>
 	  </h1>
-	  
+		<b>&nbsp&nbsp Progetti &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Social &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="https://t.me/warpzoneretrogaming">Community</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Store 
+		<br>&nbsp&nbsp&nbsp&nbsp W.I.P. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp W.I.P. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp W.I.P. </b>
+	  <h1 class="smoothed">
+		<br>
+		<br>&nbsp&nbsp _______________________________________________________
+	  </h1>	
+	
+	<marquee class="smoothed" behavior="scroll" direction="left">-&nbsp&nbsp Ancora Work in Progress (anche se i progressi iniziano a notarsi)&nbsp&nbsp - </marquee>
    </body>
 </html>
